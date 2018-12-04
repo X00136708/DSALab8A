@@ -16,7 +16,7 @@ public:
 	void pop();
 	double top();
 	ListOfDoubles(const ListOfDoubles& e);
-	ListOfDoubles operator=(const ListOfDoubles& list);
+	ListOfDoubles operator=(ListOfDoubles& list);
 
 private:
 	struct Item;
