@@ -74,7 +74,7 @@ ListOfDoubles::ListOfDoubles(const ListOfDoubles& e) {
 
 }
 
-ListOfDoubles ListOfDoubles::operator=(const ListOfDoubles& list) {
+ListOfDoubles ListOfDoubles::operator=(ListOfDoubles& list) {
 	ListOfDoubles newList(list);
 	return *this;
 }
